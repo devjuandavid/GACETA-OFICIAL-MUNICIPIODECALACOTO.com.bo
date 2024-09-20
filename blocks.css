@@ -1,0 +1,463 @@
+@import url(css/font-awesome.min.css);
+.proportions-box-square {
+    position: relative;
+    padding: 100% 0 0 !important;
+    height: 0;
+}
+
+.proportions-box-content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.titulo-principal {
+    background: linear-gradient(to right, #8B0000, #556B2F); /* Ajusta los colores según sea necesario */
+    padding: 20px;
+    border-radius: 10px; /* Opcional: para bordes redondeados */
+    text-align: center;
+    font-size: 100px;
+}
+
+.titulo-principal h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.background-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.background-left-top {
+    background-position: left top;
+}
+
+.background-left-center {
+    background-position: left center;
+}
+
+.background-left-bottom {
+    background-position: left bottom;
+}
+
+.background-right-top {
+    background-position: right top;
+}
+
+.background-right-center {
+    background-position: right center;
+}
+
+.background-right-bottom {
+    background-position: right bottom;
+}
+
+.background-center-top {
+    background-position: center top;
+}
+
+.background-center-center {
+    background-position: center center;
+}
+
+.background-center-bottom {
+    background-position: center bottom;
+}
+
+.border-width-1 {
+    border-width: 1px !important;
+}
+
+.border-width-2 {
+    border-width: 2px !important;
+}
+
+.border-width-3 {
+    border-width: 3px !important;
+}
+
+.border-width-4 {
+    border-width: 4px !important;
+}
+
+.border-width-6 {
+    border-width: 6px !important;
+}
+
+.border-width-8 {
+    border-width: 8px !important;
+}
+
+.border-width-12 {
+    border-width: 12px !important;
+}
+
+.border-width-16 {
+    border-width: 16px !important;
+}
+
+.border-width-24 {
+    border-width: 24px !important;
+}
+
+.image-fit {
+    object-fit: contain;
+    object-position: center center;
+}
+
+.image-fit-left-top {
+    object-position: left top;
+}
+
+.image-fit-left-center {
+    object-position: left center;
+}
+
+.image-fit-left-bottom {
+    object-position: left bottom;
+}
+
+.image-fit-right-top {
+    object-position: right top;
+}
+
+.image-fit-right-center {
+    object-position: right center;
+}
+
+.image-fit-right-bottom {
+    object-position: right bottom;
+}
+
+.image-fit-center-top {
+    object-position: center top;
+}
+
+.image-fit-center-center {
+    object-position: center center;
+}
+
+.image-fit-center-bottom {
+    object-position: center bottom;
+}
+
+.transition {
+    transition: all 0.25s ease-in;
+}
+
+.transition-slow {
+    transition: all 0.5s ease-in;
+}
+
+.transition-very-slow {
+    transition: all 1s ease-in;
+}
+
+.line-height-1 {
+    line-height: 1 !important;
+}
+
+.opacity-100 {
+    opacity: 1 !important;
+}
+
+.opacity-85 {
+    opacity: 0.85 !important;
+}
+
+.opacity-75 {
+    opacity: 0.75 !important;
+}
+
+.opacity-50 {
+    opacity: 0.50 !important;
+}
+
+.opacity-25 {
+    opacity: 0.25 !important;
+}
+
+.opacity-0 {
+    opacity: 0 !important;
+}
+
+/*mision y vision*/
+/*mision y vision*/
+.contenedor {
+    background-image: url('cala3.jpg'); /* Asegúrate de usar la ruta correcta para tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px; /* Añadir padding para evitar que el texto toque los bordes */
+}
+.contenedor::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Capa oscura para mejorar la visibilidad del texto */
+}
+
+.contenedor2 {
+    background-image: url('cala.jpg'); /* Asegúrate de usar la ruta correcta para tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px; /* Añadir padding para evitar que el texto toque los bordes */
+}
+.contenedor2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Capa oscura para mejorar la visibilidad del texto */
+}
+
+.texto {
+    position: relative;
+    z-index: 1; /* Para que el texto esté sobre la capa oscura */
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra del texto */
+}
+
+.texto p {
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Media query para pantallas más pequeñas (tablets) */
+@media (max-width: 768px) {
+    .texto {
+        font-size: 1.5em; /* Reducir el tamaño de la fuente */
+    }
+}
+
+/* Media query para pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+    .contenedor {
+        height: auto; /* Ajustar la altura según el contenido */
+        padding: 10px;
+    }
+
+    .texto {
+        font-size: 1.2em; /* Reducir más el tamaño de la fuente */
+        padding: 10px;
+    }
+
+    .texto p {
+        max-width: 100%; /* Asegurar que el texto ocupe todo el ancho en móviles */
+    }
+}
+
+/*BOTON whatsapp*/
+
+img {
+  height: auto;
+  max-width: 100%; }
+  .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #696969;
+    z-index:100;
+  }
+  .float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color:#fff;
+  }
+  
+  .my-float{
+    margin-top:16px;
+  }
+  /*AUTORIDADES*/
+  .directorio {
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.persona {
+    text-align: center;
+}
+
+.persona img {
+    width: 160px; /* Tamaño más grande */
+    height: 255px; /* Tamaño más grande */
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #000;
+}
+.persona embed {
+    width: 400px; /* El ancho ahora se ajusta al contenedor */
+    height: 500px; /* La altura será automática */
+}
+
+h2 {
+    font-size: 28px;
+    margin: 10px 0;
+    color: #FFF;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h1 {
+    font-size: 55px;
+    margin: 10px 0;
+    color: #FFF;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.titulo {
+    color: #F5F5DC;
+    font-size: 20px;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Medios Responsive */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .persona embed {
+        width: 70%; /* El ancho será el 100% del contenedor */
+        height: auto; /* Altura automática */
+    }
+}
+
+@media (max-width: 500px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    .persona embed {
+        width: 70%; /* El ancho será el 100% del contenedor */
+        height: auto; /* Altura automática */
+    }
+}
+
+
+/*boton descargar*/
+.download-btn {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Cambia el color del texto a blanco */
+    font-size: 38px; /* Aumenta el tamaño de la fuente */
+    border: none;
+    padding: 5px 15px; /* Usando rem para que el tamaño sea relativo */
+    font-size: 1.8rem; /* Tamaño de fuente adaptable */
+    text-align: center;
+    border-radius: 50px 50px 0 0 ; /* Bordes superiores redondeados */
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 50%; /* El botón ocupa todo el ancho disponible */
+    max-width: 300px; /* Máximo ancho para pantallas grandes */
+}
+
+.download-btn:hover {
+    background-color: #45a049; /* Color de fondo más oscuro cuando se pasa el mouse */
+}
+
+.download-btn i {
+    margin-right: 0.5rem; /* Espacio entre el icono y el texto */
+}
+
+.download-btn:before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background-color: #4CAF50;
+    border-radius: 0 0 50px 50px;
+}
+
+@media (max-width: 768px) {
+    .download-btn {
+        padding: 0.8rem 1.5rem; /* Reducir el padding en pantallas más pequeñas */
+        font-size: 1.2rem; /* Reducir el tamaño de la fuente */
+    }
+
+    .download-btn i {
+        margin-right: 0.3rem; /* Ajustar el espacio del icono en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .download-btn {
+        padding: 0.6rem 1rem; /* Reducir aún más el padding */
+        font-size: 1rem; /* Tamaño de fuente más pequeño */
+    }
+}
+
+/*eventos*/
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    grid-gap: 10px; /* Espacio entre las imágenes */
+    justify-items: center; /* Centra horizontalmente las imágenes */
+    grid-row-gap: 20px; /* Espacio entre filas */
+}
+
+.image-grid img {
+    width: 600px; /* Tamaño grande para pantallas normales */
+    height: 850px; /* Tamaño grande para pantallas normales */
+    object-fit: cover; /* Mantiene la relación de aspecto y recorta las imágenes si es necesario */
+    border-radius: 5px; /* Borde redondeado opcional */
+}
+
+/* Para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: repeat(1, 1fr); /* 1 columna */
+    }
+    
+    .image-grid img {
+        width: 200px; /* Tamaño pequeño y uniforme para pantallas pequeñas */
+        height: 300px; /* Tamaño pequeño y uniforme para pantallas pequeñas */
+    }
+}
+
+
+@media (max-width: 480px) {
+    .image-grid {
+        grid-template-columns: repeat(1, 1fr); /* 1 columna para móviles */
+    }
+}
